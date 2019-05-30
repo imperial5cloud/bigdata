@@ -1,0 +1,71 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.censoft.framework.config.CenDevonfig",
+      "name": "cendev",
+      "type": "com.censoft.framework.config.CenDevonfig"
+    },
+    {
+      "sourceType": "com.censoft.framework.config.GenConfig",
+      "name": "gen",
+      "type": "com.censoft.framework.config.GenConfig"
+    },
+    {
+      "sourceType": "com.censoft.framework.config.ShiroFilterMap",
+      "name": "shiro",
+      "type": "com.censoft.framework.config.ShiroFilterMap"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.censoft.framework.config.CenDevonfig",
+      "name": "cendev.copyright-year",
+      "description": "版权年份",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.censoft.framework.config.CenDevonfig",
+      "name": "cendev.description",
+      "description": "描述",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.censoft.framework.config.CenDevonfig",
+      "name": "cendev.name",
+      "description": "项目名称",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.censoft.framework.config.CenDevonfig",
+      "name": "cendev.version",
+      "description": "版本",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.censoft.framework.config.ShiroFilterMap",
+      "name": "shiro.filter-chain-anon-map",
+      "type": "java.util.LinkedHashMap<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "com.censoft.framework.config.ShiroFilterMap",
+      "name": "shiro.filter-chain-logout-map",
+      "type": "java.util.LinkedHashMap<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "com.censoft.framework.config.ShiroFilterMap",
+      "name": "shiro.filter-chain-user-map",
+      "type": "java.util.LinkedHashMap<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "com.censoft.framework.config.ShiroFilterMap",
+      "name": "shiro.filter-chain-validate-map",
+      "type": "java.util.LinkedHashMap<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "com.censoft.framework.config.ShiroFilterMap",
+      "name": "shiro.filter-chainonline-session-map",
+      "type": "java.util.LinkedHashMap<java.lang.String,java.lang.String>"
+    }
+  ]
+}

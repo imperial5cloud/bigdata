@@ -1,0 +1,19 @@
+package com.censoft;
+
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
+/**
+ * web容器中进行部署
+ * 只有在cendev独立打包WAR时候才需要此文件
+ * @author censoft
+ */
+public class CenDevServletInitializer extends SpringBootServletInitializer
+{
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application)
+    {
+        return application.sources(CenDevRunApplication.class);
+    }
+
+}
