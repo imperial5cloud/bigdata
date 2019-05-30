@@ -1,0 +1,10 @@
+/.settings
+/.project
+/META-INF/
+/build.properties
+/.idea/
+/out/
+*.iml
+*.md
+/cendev-admin/target/
+/cendev-project/target/
